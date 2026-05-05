@@ -28,7 +28,6 @@ The project demonstrates skills in GUI development, embedded systems concepts, A
 ```
 fpga_insight/
 - main.py
-- requirements.txt
 - README.md
 - core/
   - fpga_sim.py
