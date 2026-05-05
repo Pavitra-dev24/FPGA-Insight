@@ -120,22 +120,6 @@ Address    Name          R-W    Description
 
 ---
 
-## Running Tests
-
-```bash
-python test_suite.py
-```
-
-The suite covers 39 cases across three modules.
-
-FPGASimulator - 14 tests: register reads and writes, read-only protection, byte masking, clock divider side-effects, signal shape, feature vector length, anomaly injection and clearing, sensor tick behaviour.
-
-AnomalyDetector - 8 tests: training lifecycle, score tuple format, normal-data scoring, extreme anomaly detection, training progress, score history accumulation.
-
-NLPParser - 17 tests: set by name and address, hex and decimal values, read-only rejection, read, reset, inject, clear, status, diagnostic, export, help, unknown command, invalid register name, invalid value, history recording, case-insensitivity.
-
----
-
 ## Demo Walkthrough
 
 1. Launch the app with python main.py.
