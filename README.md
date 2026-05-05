@@ -79,26 +79,6 @@ The parser uses Python's re module to match plain-English commands against a set
 
 ---
 
-## Installation
-
-Requires Python 3.10 or later.
-
-```bash
-git clone https://github.com/Pavitra-dev24/fpga-insight.git
-cd fpga-insight
-pip install -r requirements.txt
-python main.py
-```
-
-Dependencies - all free and open-source:
-
-- numpy: signal generation and feature extraction.
-- matplotlib: embedded oscilloscope charts.
-- scikit-learn: Isolation Forest model.
-- tkinter: GUI framework, included in the Python standard library.
-
----
-
 ## NLP Commands
 
 ```
@@ -170,10 +150,3 @@ NLPParser - 17 tests: set by name and address, hex and decimal values, read-only
 10. Type export config to save the full register map to a CSV file.
 
 ---
-
-## Author
-
-Pavitra Sharma.
-B.Tech Computer Science and Engineering - Jaypee Institute of Information Technology, Noida.
-GitHub: github.com/Pavitra-dev24.
-LinkedIn: linkedin.com/in/pavitra-sharma-9630a72bb.
