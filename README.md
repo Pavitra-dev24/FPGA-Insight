@@ -29,7 +29,6 @@ The project demonstrates skills in GUI development, embedded systems concepts, A
 fpga_insight/
 - main.py
 - requirements.txt
-- test_suite.py
 - README.md
 - core/
   - fpga_sim.py
@@ -43,7 +42,6 @@ fpga_insight/
 - core/ai_engine.py: Isolation Forest anomaly detector with online scoring.
 - core/nlp_parser.py: Regex-based natural language command parser.
 - ui/app.py: Tkinter GUI: status bar, three-tab notebook, NLP command bar, console.
-- test_suite.py: 39 unit tests covering all three core modules.
 
 ---
 
